@@ -199,4 +199,18 @@ body {
 	  display: none;
 	}
   }
-  
+
+
+	.rec-item {
+			background: black;
+		-webkit-transition: all 2s ease;
+		-moz-transition: all 2s ease;
+		-o-transition: all 2s ease;
+		transition: all 2s ease;
+	}
+	
+	.rec-item.clicked {
+		width: 300px;
+		height: 300px;
+			background: blue;
+	}

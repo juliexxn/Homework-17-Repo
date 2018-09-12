@@ -94,5 +94,9 @@ $('.product-info').css({
 	'transition': '1s ease';
 	'border-radius': '0';
 });
- 
+
+
+$(".rec-item").click(function() {
+	$(this).toggleClass("clicked");
+});
  
